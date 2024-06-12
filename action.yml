@@ -1,13 +1,13 @@
-name: 'The name of your action here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'buildrun_action'
+description: 'Stores the run ids to the database'
+author: 'demakks'
 
 # Define your inputs here.
 inputs:
-  milliseconds:
-    description: 'Your input description here'
+  githubrunid:
+    description: 'this is runid of a build'
     required: true
-    default: '1000'
+   
 
 # Define your outputs here.
 outputs:
