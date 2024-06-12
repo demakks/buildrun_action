@@ -1,5 +1,5 @@
-name: 'buildrun_action'
-description: 'Stores the run ids to the database'
+name: 'Store GitHub Run ID in PostgreSQL'
+description: 'Fetches the value of GitHub environment variable GITHUB_RUN_ID and stores it into a PostgreSQL database.'
 author: 'demakks'
 
 # Define your inputs here.
@@ -7,7 +7,6 @@ inputs:
   githubrunid:
     description: 'this is runid of a build'
     required: true
-   
 
 # Define your outputs here.
 outputs:
