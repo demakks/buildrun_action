@@ -7,7 +7,7 @@ on:
 
 jobs:
   store-github-run-id:
-    runs-on: windows-runner
+    runs-on: ubuntu-latest
     steps:
       - name: Store GitHub Run ID in PostgreSQL
         uses: demakks/buildrun_action@v1
